@@ -5,7 +5,7 @@
 - [ ] **Cidade / endereço do consultório** e se atende **online**. O DDD 12 sugere Vale do Paraíba (SP), mas não foi confirmado, por isso o site não cita cidade.
 - [ ] **Formação** (faculdade, ano) e cursos/pós, se ela quiser exibir.
 - [ ] **Nome do curso de emagrecimento comportamental** que ela está fazendo e a previsão de conclusão. O site diz "Estou em formação em emagrecimento comportamental"; não a chama de especialista.
-- [ ] **Método VIVA 40+**: confirmar que é o nome do acompanhamento de 90 dias e o que significa cada letra (a bio do Instagram aparece cortada: "Método VIVA 40+ / Vitalidade…").
+- [x] **Método EU MAGRA**: nome do acompanhamento de 90 dias (substituiu "VIVA 40+" a pedido, em 04/11/2026).
 - [ ] **Etapas do acompanhamento** (Dia 1 Raiz · Dias 2–30 Caule · Dias 31–60 Folhas · Dias 61–90 Flor): o texto é uma proposta de redação. Pedir para a Elisete validar o que acontece em cada fase (nº de retornos, exames, bioimpedância etc.).
 - [ ] **Serviços de estética**: só "drenagem linfática" foi citada (post do Instagram). Confirmar a lista.
 - [ ] **"Minha essência"** (Determinação, Empatia, Autenticidade, Fé), lida do post "Eu sou Elisete". Confirmar.

@@ -121,7 +121,7 @@ section { scroll-margin-top: 80px; }
 .vinha--hero { inset: -12% -16% -8% -16%; width: 132%; height: 120%; }
 .selo { position: absolute; right: -18px; bottom: 9%; width: 108px; height: 108px; border-radius: 50%; background: var(--tinta); color: var(--papel); display: grid; place-content: center; text-align: center; box-shadow: 0 14px 30px -14px rgba(28, 26, 23, .7); outline: 1px solid var(--ouro); outline-offset: -7px; }
 .selo span { font: 700 .58rem/1 var(--sans); letter-spacing: .26em; text-transform: uppercase; color: var(--ouro-claro); }
-.selo strong { font: italic 600 1.25rem/1.1 var(--serif); margin-top: 4px; }
+.selo strong { font: italic 600 1.02rem/1.1 var(--serif); margin-top: 4px; letter-spacing: .01em; }
 .dica { position: absolute; right: var(--gutter); bottom: 14px; font: italic 500 .85rem/1 var(--serif); color: var(--suave); margin: 0; }
 .dica::before { content: "✿ "; color: var(--ouro); font-style: normal; }
 
@@ -293,7 +293,7 @@ section { scroll-margin-top: 80px; }
   .meses { display: grid; grid-template-columns: repeat(2, 1fr); }
   .meses button { padding: 10px 4px; }
   .selo { width: 88px; height: 88px; right: -10px; }
-  .selo strong { font-size: 1.05rem; }
+  .selo strong { font-size: .86rem; }
   .sobre__foto::before { inset: 14px -14px -14px 14px; }
   .flutuante span { display: none; }
   .flutuante { padding: 0; width: 56px; justify-content: center; }
