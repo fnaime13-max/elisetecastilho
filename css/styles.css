@@ -119,9 +119,11 @@ section { scroll-margin-top: 80px; }
 .moldura img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 12%; }
 .vinha { position: absolute; pointer-events: none; }
 .vinha--hero { inset: -12% -16% -8% -16%; width: 132%; height: 120%; }
-.selo { position: absolute; right: -18px; bottom: 9%; width: 108px; height: 108px; border-radius: 50%; background: var(--tinta); color: var(--papel); display: grid; place-content: center; text-align: center; box-shadow: 0 14px 30px -14px rgba(28, 26, 23, .7); outline: 1px solid var(--ouro); outline-offset: -7px; }
-.selo span { font: 700 .58rem/1 var(--sans); letter-spacing: .26em; text-transform: uppercase; color: var(--ouro-claro); }
-.selo strong { font: italic 600 1.02rem/1.1 var(--serif); margin-top: 4px; letter-spacing: .01em; }
+.selo { position: absolute; right: -18px; bottom: 9%; width: 156px; height: 156px; border-radius: 50%; background: var(--tinta); color: var(--papel); display: grid; place-content: center; text-align: center; box-shadow: 0 14px 30px -14px rgba(28, 26, 23, .7); outline: 1px solid var(--ouro); outline-offset: -8px; }
+.selo span { font: 700 .68rem/1 var(--sans); letter-spacing: .26em; text-transform: uppercase; color: var(--ouro-claro); }
+.selo strong { font: italic 600 1.9rem/.95 var(--serif); margin-top: 6px; letter-spacing: .01em; }
+.metodo-nome { font: italic 600 clamp(2.2rem, 4.4vw, 3.6rem)/1 var(--serif); color: var(--ouro); margin: 0 0 var(--s5); }
+.metodo-nome span { display: block; font: 700 .8rem/1 var(--sans); font-style: normal; letter-spacing: .26em; text-transform: uppercase; color: var(--cafe); margin-bottom: var(--s2); }
 .dica { position: absolute; right: var(--gutter); bottom: 14px; font: italic 500 .85rem/1 var(--serif); color: var(--suave); margin: 0; }
 .dica::before { content: "✿ "; color: var(--ouro); font-style: normal; }
 
@@ -292,8 +294,9 @@ section { scroll-margin-top: 80px; }
   .hero__acoes .btn { flex: 1 1 100%; }
   .meses { display: grid; grid-template-columns: repeat(2, 1fr); }
   .meses button { padding: 10px 4px; }
-  .selo { width: 88px; height: 88px; right: -10px; }
-  .selo strong { font-size: .86rem; }
+  .selo { width: 118px; height: 118px; right: -10px; }
+  .selo strong { font-size: 1.4rem; }
+  .selo span { font-size: .56rem; }
   .sobre__foto::before { inset: 14px -14px -14px 14px; }
   .flutuante span { display: none; }
   .flutuante { padding: 0; width: 56px; justify-content: center; }
