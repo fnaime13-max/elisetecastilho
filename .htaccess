@@ -1,0 +1,8 @@
+# Força https
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
+
+# Não expõe arquivos de trabalho
+RedirectMatch 404 /(qa|_originais|\.git)(/|$)
+RedirectMatch 404 \.(md|sh)$
