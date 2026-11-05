@@ -220,15 +220,15 @@ section { scroll-margin-top: 80px; }
 .sobre__crn { font-size: .85rem; color: var(--suave); }
 
 /* ---------- avaliações ---------- */
-.avaliacoes { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter) clamp(80px, 11vw, 140px); display: grid; grid-template-columns: .75fr 1.25fr; gap: clamp(32px, 6vw, 88px); align-items: start; }
+.avaliacoes { max-width: var(--max); margin: 0 auto; padding: clamp(72px, 10vw, 128px) var(--gutter) 0; display: grid; grid-template-columns: .75fr 1.25fr; gap: clamp(32px, 6vw, 88px); align-items: start; }
 .aval__nota { position: sticky; top: 110px; }
 .aval__numero { font: 600 clamp(5rem, 10vw, 8rem)/.85 var(--serif); color: var(--tinta); margin: 0; }
 .aval__estrelas { font-size: 1.5rem; letter-spacing: .18em; color: var(--ouro); margin: var(--s3) 0 var(--s4); }
 .aval__nota h2 { font-size: clamp(1.5rem, 2.4vw, 2rem); margin-bottom: var(--s6); }
 .aval__lista { display: grid; grid-template-columns: 1fr 1fr; column-gap: clamp(24px, 4vw, 56px); }
 .aval { margin: 0; padding: var(--s6) 0; border-top: 1px solid var(--linha); }
-.aval p { font: italic 500 1.15rem/1.5 var(--serif); color: var(--texto); margin-bottom: var(--s4); }
-.aval footer { font: 700 .72rem/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; color: var(--cafe); }
+.aval p { font: 400 1.1rem/1.7 var(--sans); color: var(--texto); margin-bottom: var(--s4); }
+.aval footer { font: 700 .8rem/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--cafe); }
 .aval footer::before { content: "★ "; color: var(--ouro); letter-spacing: 0; }
 .contato__end { font-size: .92rem; margin-top: var(--s4); }
 .contato__end a { color: var(--ouro-claro); }
