@@ -1,8 +1,10 @@
 # Pendências · Site Elisete Castilho
 
 ## Dados profissionais (não inventados — precisam vir da cliente)
-- [ ] **CRN** (número e região). Preencher em `js/config.js` → `crn`. Hoje o site mostra "CRN a preencher".
-- [ ] **Cidade / endereço do consultório** e se atende **online**. O DDD 12 sugere Vale do Paraíba (SP), mas não foi confirmado, por isso o site não cita cidade.
+- [x] **CRN-3 25623** (informado pela cliente em 05/11/2026).
+- [x] **Endereço** do perfil do Google: R. Arnaldo Ricardo Monteiro, 71 · Jardim Maringá · São José dos Campos/SP. Falta confirmar se atende **online**.
+- [x] **Público:** foco em mulheres 40+, também homens com objetivo de emagrecimento. Ela NÃO faz nutrição geral (hipertrofia, outras clínicas): não usar "atendimento geral".
+- [x] **Avaliações do Google** (5,0 · 31 avaliações, lidas em 05/11/2026): 4 trechos reais com nome abreviado. Atualizar o total em `data-total` quando crescer.
 - [ ] **Formação** (faculdade, ano) e cursos/pós, se ela quiser exibir.
 - [ ] **Nome do curso de emagrecimento comportamental** que ela está fazendo e a previsão de conclusão. O site diz "Estou em formação em emagrecimento comportamental"; não a chama de especialista.
 - [x] **Método EU MAGRA**: nome do acompanhamento de 90 dias (substituiu "VIVA 40+" a pedido, em 04/11/2026).

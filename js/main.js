@@ -144,14 +144,14 @@
       });
     });
   }, { rootMargin: '-45% 0px -50% 0px' });
-  ['cuidado', 'acompanhamento', 'guias', 'sobre', 'duvidas'].forEach(function (id) { obSecao.observe(document.getElementById(id)); });
+  ['cuidado', 'acompanhamento', 'guias', 'sobre', 'avaliacoes', 'duvidas'].forEach(function (id) { obSecao.observe(document.getElementById(id)); });
 
   /* ---------- revelação suave no scroll ---------- */
   if (!reduz) {
     var obRev = new IntersectionObserver(function (es) {
       es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('ok'); obRev.unobserve(e.target); } });
     }, { rootMargin: '0px 0px -8% 0px' });
-    document.querySelectorAll('.cab, .area, .acomp__cab, .guia, .sobre__foto, .sobre__texto, .faq, .contato__in, .manifesto blockquote').forEach(function (el) {
+    document.querySelectorAll('.cab, .area, .acomp__cab, .guia, .sobre__foto, .sobre__texto, .aval__nota, .aval, .faq, .contato__in, .manifesto blockquote').forEach(function (el) {
       el.classList.add('revela'); obRev.observe(el);
     });
   }

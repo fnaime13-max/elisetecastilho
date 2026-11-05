@@ -3,7 +3,7 @@ window.CONFIG = {
   nome: 'Elisete Castilho',
   whatsapp: '5512981765852', // número do botão "AGENDAMENTO com a Nutri" do Linktree
   instagram: 'nutrielisetecastilho',
-  crn: '', // ex.: 'CRN-3 00000'. Enquanto estiver vazio, o site mostra "CRN a preencher"
+  crn: 'CRN-3 25623',
   mensagem: 'Olá, Elisete! Vi seu site e quero agendar uma consulta.'
 };
 
