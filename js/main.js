@@ -12,7 +12,7 @@
   }
   $('#ano').textContent = new Date().getFullYear();
 
-  /* ---------- trepadeiras ---------- */
+  /* ---------- ramos floridos ---------- */
   var T = window.Trepadeira;
 
   var hero = new T($('#vinhaHero'), {
@@ -89,7 +89,7 @@
     if (es[0].isIntersecting) { mes(1); ob.disconnect(); }
   }, { threshold: 0.35 }).observe($('#vinhaAcomp'));
 
-  /* ---------- abertura: a trepadeira sobe de 0 a 100% ---------- */
+  /* ---------- abertura: os ramos floridos sobem de 0 a 100% ---------- */
   var abertura = $('#abertura'), num = $('#pct');
   function revelarSite() {
     document.documentElement.classList.remove('carregando');

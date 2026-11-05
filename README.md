@@ -7,8 +7,8 @@ Site estático (HTML + CSS + JS puro, sem build). Basta abrir o `index.html` no 
 index.html            página única (todas as seções)
 css/styles.css        estilos; cores e fontes nas variáveis do topo (:root)
 js/config.js          WhatsApp, Instagram, CRN e mensagem padrão  ← edite aqui
-js/trepadeira.js      a trepadeira de jasmim interativa (canvas)
-js/main.js            abertura 0→100%, abas dos meses, menu, ligação das trepadeiras
+js/trepadeira.js      os ramos floridos de jasmim interativos (canvas)
+js/main.js            abertura 0→100%, abas dos meses, menu, ligação dos ramos floridos
 assets/img/           fotos (.webp) e capas dos guias (assets/img/guias/)
 assets/favicon.svg    ícone (flor de jasmim)
 robots.txt, sitemap.xml
@@ -27,7 +27,7 @@ _originais/, qa/      arquivos de trabalho (não precisam ir para o servidor)
 Qualquer hospedagem estática serve (GitHub Pages, Hostinger, Netlify). Envie tudo, exceto `_originais/` e `qa/`. Depois atualize o domínio em `index.html` (canonical/og), `sitemap.xml` e `robots.txt`.
 
 ## Decisões
-- **Conceito "Trepadeira":** o emagrecimento depois dos 40 é visto como algo que precisa de estrutura (a treliça), tempo (90 dias) e cuidado constante. O jasmim-estrela é branco sobre o carvão da identidade dela, e os botões rosados lembram o magenta que ela usa.
+- **Conceito "Ramos floridos":** o emagrecimento depois dos 40 é visto como algo que precisa de estrutura (a treliça), tempo (90 dias) e cuidado constante. O jasmim-estrela é branco sobre o carvão da identidade dela, e os botões rosados lembram o magenta que ela usa.
 - **Interação:** as flores desabrocham quando o mouse passa, as gavinhas se esticam até o cursor, as folhas balançam e um clique faz crescer um broto. Respeita `prefers-reduced-motion`: nesse modo, a planta aparece pronta e sem animação.
 - **Fontes:** Playfair Display (a serifada contrastada dos posts dela) em pesos 500/600, para não ficar fina, + Lato no texto.
 - **QA:** `node qa/shots.cjs` tira screenshots em 1440 e 390 px (usa o Playwright da skill playwright-skill).
