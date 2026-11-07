@@ -298,9 +298,12 @@ section { scroll-margin-top: 80px; }
   .marca__nome { font-size: 1.3rem; }
   .areas { grid-template-columns: 1fr; }
   .aval__lista { grid-template-columns: 1fr; }
-  .area--destaque { grid-template-columns: 1fr; gap: var(--s3); }
-  .area--destaque .area__tag { justify-self: start; grid-row: 1; }
   .area { grid-template-columns: 40px 1fr; }
+  .area.area--destaque { grid-template-columns: auto 1fr; gap: var(--s3) var(--s4); align-items: center; }
+  .area--destaque .area__n { grid-row: 1; grid-column: 1; }
+  .area--destaque .area__tag { grid-row: 1; grid-column: 2; justify-self: start; }
+  .area--destaque > div { grid-row: 2; grid-column: 1 / -1; }
+  .area--destaque h3 { font-size: 1.9rem; }
   .estante { grid-template-columns: 1fr; gap: var(--s6); }
   .estante .guia { display: grid; grid-template-columns: 120px 1fr; column-gap: var(--s4); align-items: start; }
   .estante .guia__capa { grid-row: 1 / span 4; padding: 8px; }
